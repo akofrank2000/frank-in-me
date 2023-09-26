@@ -1,0 +1,267 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>ALL PRODUCT-WILSON SHOES</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@300&family=Roboto+Slab:wght@200;500;900&display=swap" rel="stylesheet">
+ <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+	
+	<div class="container">
+<div class=" navbar">
+	<div class="logo">
+		<a href="index.html"><img src="K9 (2).png" width="125px"></a>
+	</div>
+    <nav>
+		<ul id="menuitems">
+			<li><a href="./index.html">Home</a></li>
+			<li><a href="product.html">Product</a></li>
+			<li><a href="about.html">About</a></li>
+			<li><a href="contact.html">Contact</a></li>
+			<li><a href="account.html">Account</a></li>
+		</ul>
+	</nav>
+    <a href="cart.html"><img src="CART.png" width="30PX" height="30PX"> </a>
+    <img src="open-menu.png" width="30PX" height="30PX" class="menu-icon" onclick="menutoggle()">
+</div>
+
+</div>
+
+    <!------cart details--->
+    
+    
+    <div class="small-container cart-page"> 
+    
+       <table>
+           <tr>
+               <th>Product</th>
+               <th>Quantity</th>
+               <th>Subtotal</th>
+           </tr>
+        <tr>
+            <td>
+            <div class="cart-info">
+                <img src="black (12).jpg">
+                <div>
+                    <p>product name</p>
+                    <small>Price: GHC 300.00</small> 
+                    <br>
+                    <button onclick="console.log(`cart quantity:GHC{cartQuantity}`);" class="button">Remove</button>
+                </div>
+            </div>
+           </td>
+           <td><input type="number" value="1"></td>
+            <td>GHC 300.00</td>
+           
+           </tr> <tr>
+            <td>
+            <div class="cart-info">
+                <img src="jeans b (12).jpg">
+                <div>
+                    <p>product name</p>
+                    <small>Price: GHC 250.00</small> 
+                    <br>
+                    <button onclick="console.log(`cart quantity:GHC{cartQuantity}`);" class="button">Remove</button>
+                </div>
+            </div>
+           </td>
+           <td><input type="number" value="1"></td>
+            <td>GHC 270.00</td>
+           
+           </tr>
+            <tr>
+            <td>
+            <div class="cart-info">
+                <img src="black (18).jpg">
+                <div>
+                    <p>product name</p>
+                    <small>Price: GHC 300.00</small> 
+                    <br>
+                    <button onclick="console.log(`cart quantity:GHC{cartQuantity}`);" class="button">Remove</button>
+                </div>
+            </div>
+           </td>
+           <td><input type="number" value="1"></td>
+            <td>GHC 300.00</td>
+           
+           </tr>
+        </table>
+        
+        <div class="total-price">
+            <table>
+                
+                <tr>
+                    <td>Subtotal</td>
+                    <td>GHC 870.00</td>
+                   
+                </tr>
+                <tr>
+                    <td>Tax</td>
+                    <td>GHC 15.00</td>
+                    
+                </tr>
+                <tr>
+                    <td>Total</td>
+                    <td>GHC 855.00</td>
+                  
+                </tr>
+            </table>
+        </div>
+        
+        
+        
+        
+        
+        
+        
+        
+        </div>
+      
+      
+     
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+ 
+  <!-------foot-------->
+    
+<div class="footer">
+	<div class="ba">
+		<div class="row">
+			<div class="footer-col-1">
+				<h3>Download Our App</h3>
+				<p>Download App for Andriod and ios mobile phone</p>
+                <div class="app-logo">
+                    <img src="playstore.png">
+                    <img src="apple (1).png">
+                    
+                </div>
+			</div>
+			<div class="footer-col-2">
+				<img src="K9 (2).png">
+				<p>Awesome is a font and icon toolkit <br>based on CSS and Less. As of 2</p>
+            </div>
+			<div class="footer-col-3">
+				<h3>Usful Links</h3>
+				<ul>
+					<li>coupons</li>
+					<li>Blog Post</li>
+					<li>Return Policy</li>
+					<li>Join Affiliate</li>
+				</ul>
+			</div>
+			<div class="footer-col-4">
+				<h3>Usful Links</h3>
+				<ul>
+					<li>Facebook</li>
+					<li>Twitter</li>
+					<li>Instagram</li>
+					<li>Youtube</li>
+				</ul>
+			</div>
+		</div>
+		<hr>
+        <p class="copyright">copyright 2020- Wilson Shoes</p>
+	</div>
+</div>
+    </div>
+
+<!------toggle--->
+      <script>
+      var menuitems=document.getElementById("menuitems");
+          
+          menuitems.style.maxHeight = "0px"
+          
+          function menutoggle(){
+              if(menuitems.style.maxHeight == "0px")
+          {
+        menuitems.style.maxHeight = "200px";
+          }
+         else{menuitems.style.maxHeight == "0px";
+             }     
+          }
+      </script>
+    
+    
+    <script>
+        const cartQuantity = 0;
+    </script>
+    
+    
+    
+    </body>
+</html>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    

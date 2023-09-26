@@ -1,0 +1,214 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>ALL PRODUCT-WILSON SHOES</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@300&family=Roboto+Slab:wght@200;500;900&display=swap" rel="stylesheet">
+ <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+	
+	<div class="container">
+<div class=" navbar">
+	<div class="logo">
+		<a href="index.html"><img src="K9 (2).png" width="125px"></a>
+	</div>
+    <nav>
+		<ul id="menuitems">
+			<li><a href="./index.html">Home</a></li>
+			<li><a href="product.html">Product</a></li>
+			<li><a href="about.html">About</a></li>
+			<li><a href="contact.html">Contact</a></li>
+			<li><a href="account.html">Account</a></li>
+		</ul>
+	</nav>
+    <img src="CART.png" width="30PX" height="30PX"> 
+    <img src="open-menu.png" width="30PX" height="30PX" class="menu-icon" onclick="menutoggle()">
+</div>
+
+</div>
+
+
+ <!----------sign in ------>   
+    
+    <div class="account-page">
+        <div class="container">
+            <div class="row">
+                <div class="col-2">
+                <img src="B3.png" width="100%">
+                    </div>
+                <div class="col-2">
+               <div class="form-container">
+                  <div class="form-button">
+                      <span onclick="login()">Login</span>
+                      <span onclick="signup()">Sign Up</span>
+                      <hr id="Indicator">
+                   </div> 
+                   <form id="LoginForm">
+                       <input type="text" placeholder="Username">
+                       <input type="password" placeholder="Password">
+                       <button type="submit" class="button">Login</button>
+                       <a href="">Forgot password</a>
+                   </form>
+                   <form id="SgForm">
+                       <input type="text" placeholder="Username">
+                       <input type="email" placeholder="email">
+                       <input type="password" placeholder="Password">
+                       <button type="submit" class="button">Sign Up</button>
+                   </form>     
+                  
+                    </div>
+            </div>
+        
+        </div>
+        
+        </div>
+        
+         </div>
+       
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <!-------foot-------->
+    
+<div class="footer">
+	<div class="ba">
+		<div class="row">
+			<div class="footer-col-1">
+				<h3>Download Our App</h3>
+				<p>Download App for Andriod and ios mobile phone</p>
+                <div class="app-logo">
+                    <img src="playstore.png">
+                    <img src="apple (1).png">
+                    
+                </div>
+			</div>
+			<div class="footer-col-2">
+				<img src="K9 (2).png">
+				<p>Awesome is a font and icon toolkit <br>based on CSS and Less. As of 2</p>
+            </div>
+			<div class="footer-col-3">
+				<h3>Usful Links</h3>
+				<ul>
+					<li>coupons</li>
+					<li>Blog Post</li>
+					<li>Return Policy</li>
+					<li>Join Affiliate</li>
+				</ul>
+			</div>
+			<div class="footer-col-4">
+				<h3>Usful Links</h3>
+				<ul>
+					<li>Facebook</li>
+					<li>Twitter</li>
+					<li>Instagram</li>
+					<li>Youtube</li>
+				</ul>
+			</div>
+		</div>
+		<hr>
+        <p class="copyright">copyright 2020- Wilson Shoes</p>
+	</div>
+</div>
+    </div>
+
+<!------toggle--->
+      <script>
+      var menuitems=document.getElementById("menuitems");
+          
+          menuitems.style.maxHeight = "0px"
+          
+          function menutoggle(){
+              if(menuitems.style.maxHeight == "0px")
+          {
+        menuitems.style.maxHeight = "200px";
+          }
+         else{menuitems.style.maxHeight == "0px";
+             }     
+          }
+      </script>
+    
+    
+<!--js---toggle---form---->
+    <script>
+        var LoginForm = document.getElementById("LoginForm"); 
+        var SgForm= document.getElementById("SgForm");
+        var Indicator = document.getElementById("Indicator");
+        
+        function signup(){
+            SgForm.style.transform= "translateX(0px)";
+            LoginForm.style.transform= "translateX(0px)"; 
+         Indicator.style.transform= "translateX(100px)";
+        }
+        function login(){
+            SgForm.style.transform= "translateX(300px)";
+            LoginForm.style.transform= "translateX(300px)";
+           Indicator.style.transform= "translateX(0px)";
+        }
+        
+    </script>
+    
+    
+    
+    </body>
+</html>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
